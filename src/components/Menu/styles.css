@@ -103,6 +103,7 @@ ol,ul {
         background-color: rgb(5, 5, 5);
         justify-content: center;
         align-items: center;
+        z-index: 4;
     }
 
     .ul-mobile{
