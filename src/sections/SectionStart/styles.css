@@ -1,0 +1,92 @@
+#inicio {
+    min-height: calc(100vh - 8rem);
+    display: flex;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+
+.content__text{
+    width: 100%;
+    max-width: 76rem;
+    margin-top: 7rem;
+}
+
+.content__text h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 0.3rem;
+    font-size: 10rem;
+}
+
+.content__text p {
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.content__text a {
+    margin-top: 1rem;
+    display: block;
+    border-radius: 3rem;
+    padding: 0.2rem 1rem;
+    border: 0.4rem solid white;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    font-size: 2.6rem;
+    transition: 1s all ease;
+    width: 70%;
+    min-width: 27.5rem;
+    height: 5.2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__text svg{
+    margin-left: 0.5rem;
+}
+
+.content__text a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.content__img{
+    width: 100%;
+    max-width: 38rem;
+}
+
+
+.content__img img {
+    width: 100%;
+    border-radius:300px;
+}
+
+@media screen and (max-width:768px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__text h1 {
+        text-align: center;
+    }
+
+    .content__text p {
+        text-align: center;
+    }
+    
+    .content__text a{
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (max-width:600px){
+    .content__text h1 {
+        font-size: 8rem;
+    }   
+}

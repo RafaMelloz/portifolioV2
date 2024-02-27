@@ -1,0 +1,44 @@
+.projetos {
+    background-color: rgb(175, 173, 173);
+    width: 30rem;
+    height: 20rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.projetos img {
+    width: 100%;
+    height: 100%;
+    filter: blur(0.3rem);
+}
+
+.faixa {
+    width: 100%;
+    max-width: 30rem;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.445);
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.445);
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+}
+
+.faixa a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 0.2rem;
+    transition-timing-function: ease-out;
+    font-size: 1.6rem;
+    transition: 0.5s ;
+}
+
+.faixa a:hover {
+    letter-spacing: 0.3rem;
+    font-size: 2.2rem;
+}

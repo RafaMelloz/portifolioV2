@@ -1,0 +1,75 @@
+.skill{
+    color: white;
+    background-color: rgba(2, 6, 12, 1);
+    border-radius: 1.2rem;
+    width: 14.4rem;
+    height: 14.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+    transform: scale(1);
+}
+
+.skill span{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.skill img{
+    max-width: 64px;
+    max-height: 64px;
+}
+
+#html{
+    box-shadow: 0px 2px 12px 4px #E44D25;
+}
+
+#css {
+    box-shadow: 0px 2px 12px 4px #0277bd;
+}
+
+#js {
+    box-shadow: 0px 2px 12px 4px #ffdf00;
+}
+
+#bootstrap{
+    box-shadow: 0px 2px 12px 4px #6f10f5;
+}
+
+#angular {
+    box-shadow: 0px 2px 12px 4px #c30e2e;
+}
+
+#php {
+    box-shadow: 0px 2px 12px 4px #777bb3;
+}
+
+#coldfusion {
+    box-shadow: 0px 2px 12px 4px #7cafff;
+}
+
+#mySql{
+    box-shadow: 0px 2px 12px 4px #cf8201;
+}
+
+#git {
+    box-shadow: 0px 2px 12px 4px #de4c36;
+}
+
+#github {
+    box-shadow: 0px 2px 12px 4px #eeeeee;
+}
+
+#vscode {
+    box-shadow: 0px 2px 12px 4px #2fa3f1;
+}
+
+#react {
+    box-shadow: 0px 2px 12px 4px #2fa3f1;
+}

@@ -1,0 +1,49 @@
+:root{
+  --primaryColor: white
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  scroll-behavior: smooth !important;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: black;
+  color: var(--primaryColor);
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+    background-color: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, rgb(7, 68, 148));
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, rgb(3, 32, 71));
+    border-radius: 5px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 90%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    color: aliceblue;
+    font-size: 46px;
+    text-shadow: -7px 2px 7px #000;
+}
