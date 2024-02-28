@@ -17,6 +17,7 @@ html{
 body{
   background-color: black;
   color: var(--primaryColor);
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {

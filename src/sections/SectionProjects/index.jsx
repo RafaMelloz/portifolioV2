@@ -11,9 +11,14 @@ import { FaGithub } from "react-icons/fa";
 
 import './styles.css'
 
+ 
+
 export const SectionProjects = () =>{
+
+
+
     return(
-        <section className="container" id="projetos">
+        <section className="container" id="projetos" data-aos="fade-left">
             <div className="flex-section">
                 <div className="group__text">
                     <h2>PROJETOS</h2>

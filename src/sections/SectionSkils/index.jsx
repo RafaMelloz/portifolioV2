@@ -48,7 +48,7 @@ export const SectionSkills = () =>{
     }
  
     return(
-        <section id='habilidades'>
+        <section id='habilidades' data-aos="fade-up">
             <div className='container'>
                 <h2>Habilidades</h2>
 

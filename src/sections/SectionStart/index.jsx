@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export const SectionStart = () =>{
     return(
-        <section id="inicio">
+        <section id="inicio" data-aos="fade-down-right">
             <div class="container row">
                 <div className="content__text">
                     <p>Ola, eu sou o</p>
