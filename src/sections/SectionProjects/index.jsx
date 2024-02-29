@@ -18,8 +18,8 @@ export const SectionProjects = () =>{
 
 
     return(
-        <section className="container" id="projetos" data-aos="fade-left">
-            <div className="flex-section">
+        <section className="container" id="projetos" >
+            <div className="flex-section" data-aos="fade-up">
                 <div className="group__text">
                     <h2>PROJETOS</h2>
 

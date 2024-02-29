@@ -17,8 +17,7 @@
 
 
 @media screen and (max-width: 500px){
-    .text-sobre p { 
-        text-align: center;
-        font-size: 1.8rem;
-    }
+    #sobreMim {
+    padding: 10rem 3rem;
+}
 }
