@@ -7,6 +7,8 @@ import game from "../../assets/bg-projetos/BG-game.png";
 import orangix from "../../assets/bg-projetos/BG-orangix.png";
 import pikachu from "../../assets/bg-projetos/BG-pikachu.png";
 import vtex from "../../assets/bg-projetos/BG-vtex.png";
+import git from "../../assets/bg-projetos/BG-git.png";
+
 import { FaGithub } from "react-icons/fa";
 
 import './styles.css'
@@ -32,6 +34,7 @@ export const SectionProjects = () =>{
                 <div className="grid__proj">
                     <CardProjects name={'VTEX! (Teste frontEnd)'} img={vtex} link={'https://teste-vaga-front-end-jr.vercel.app'} />
                     <CardProjects name={'Game Calendar'} img={game} link={'https://game-calendarf.vercel.app'} />
+                    <CardProjects name={'GitHub Search'} img={git} link={'https://rafa-git-search.vercel.app'} />
                     <CardProjects name={'Clima Tempo'} img={ensolarado} link={'https://clima-tempo-zeta.vercel.app'} />
                     <CardProjects name={'appTask'} img={appTask} link={'https://task-appr.vercel.app'} />
                     <CardProjects name={'Pokedex'} img={pikachu} link={'https://pokedex-rafa.vercel.app'} />
