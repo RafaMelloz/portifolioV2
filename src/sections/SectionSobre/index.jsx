@@ -2,8 +2,8 @@ import './styles.css'
 
 export const SectionSobre = () =>{
     return(
-        <section id="sobreMim" >
-            <div data-aos="fade-right">
+        <section id="sobreMim"  >
+            <div data-aos="fade-right" className='container'>
                 <h2>Sobre mim</h2>
                 
                 <div class="text-sobre">

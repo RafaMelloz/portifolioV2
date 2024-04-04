@@ -38,6 +38,7 @@ body::-webkit-scrollbar-thumb:hover {
 .container{
   margin: 0 auto;
   width: 90%;
+  max-width: 120rem;
 }
 
 h2{
