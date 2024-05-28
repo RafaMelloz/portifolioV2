@@ -10,6 +10,11 @@ import js from '../../assets/icons/js.png'
 import react from '../../assets/icons/react.png'
 import angular from '../../assets/icons/angular.png'
 import boot from '../../assets/icons/bootstrap.png'
+import tail from '../../assets/icons/tail.png'
+import ts from '../../assets/icons/types.png'
+
+
+
 import { FaDesktop } from "react-icons/fa";
 
 //back icons
@@ -78,9 +83,13 @@ export const SectionSkills = () =>{
                         <CardSkill name={'html'} img={html} />
                         <CardSkill name={'css'} img={css} />
                         <CardSkill name={'js'} img={js} />
+                        <CardSkill name={'typeScript'} img={ts} />
                         <CardSkill name={'react'} img={react} />
                         <CardSkill name={'angular'} img={angular} />
                         <CardSkill name={'bootstrap'} img={boot} />
+                        <CardSkill name={'tailwind'} img={tail} />
+                        
+
                     </div> : null
                 }
 
